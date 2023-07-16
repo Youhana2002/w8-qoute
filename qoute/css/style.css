@@ -1,0 +1,32 @@
+body {
+  background-color: var(--bs-link-color);
+}
+.qoute-head h1 {
+  font-size: 5rem !important;
+
+}
+.qoute{
+    border: 0.5rem solid  white;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    border-radius: 1rem   ;
+}
+.qoute-box .authorOutput{
+    font-size: 1.5rem !important;
+   
+}
+
+
+.qoute-box{
+    font-size: 2rem !important;
+    min-height: 150px !important;
+}
+.authorOutput{
+  position: relative;
+  top:80% !important;
+}
+/* 
+.qoute-box .quoteOutput{
+  max-height: px !important;
+} */

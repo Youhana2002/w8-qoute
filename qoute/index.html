@@ -1,0 +1,36 @@
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="qoute w-50 m-auto text-lg-center bg-body rounded-3">
+      <div class="qoute-head bg-white p-2">
+        <h1>Quote of the Day</h1>
+        <hr />
+        <p class="fw-bold mb-2">
+          Press the button below to recieve a random quote!
+        </p>
+      </div>
+      <div class="qoute-box bg-white d-block">
+        <p id="quoteOutput" class="quoteOutput bg-white d-inline"></p>
+        <div class="aouthor">
+          <p class="authorOutput d-inline" id="authorOutput"></p>
+        </div>        
+      </div>
+      <button
+          class="new-qoute btn btn-danger"
+          type="button"
+          onclick="generateQuote()"
+        >
+          New Qoute
+        </button>
+    </div>
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+<!-- <button class="btn btn-danger" type="button" onclick= generateQuote()">
+    New Quote
+  </button> -->
